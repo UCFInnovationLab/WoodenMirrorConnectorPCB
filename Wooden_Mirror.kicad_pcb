@@ -1099,8 +1099,8 @@
 		)
 	)
 	(gr_line
-		(start 88.265 119.38)
-		(end 88.265 127)
+		(start 88.9 109.22)
+		(end 88.9 116.84)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -1119,8 +1119,8 @@
 		(uuid "3acd0205-b1a1-421b-8d14-643ef1d8c156")
 	)
 	(gr_line
-		(start 88.265 116.84)
-		(end 88.9 116.84)
+		(start 89.027 127)
+		(end 89.662 127)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -1149,8 +1149,8 @@
 		(uuid "7d7f6958-73b4-4879-8884-8ffc83e03f92")
 	)
 	(gr_line
-		(start 88.265 127)
-		(end 88.9 127)
+		(start 88.9 116.84)
+		(end 89.535 116.84)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -1169,8 +1169,8 @@
 		(uuid "a75ec4ab-214c-4f1e-a1e3-89bf98281554")
 	)
 	(gr_line
-		(start 88.9 109.22)
-		(end 88.265 109.22)
+		(start 89.662 119.38)
+		(end 89.027 119.38)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -1179,8 +1179,8 @@
 		(uuid "d7253f76-a3fa-4769-826d-8663b5a1c044")
 	)
 	(gr_line
-		(start 88.9 119.38)
-		(end 88.265 119.38)
+		(start 89.535 109.22)
+		(end 88.9 109.22)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -1199,8 +1199,8 @@
 		(uuid "f9f27cf5-3ba5-4b87-ae77-155d24a2d5ba")
 	)
 	(gr_line
-		(start 88.265 109.22)
-		(end 88.265 116.84)
+		(start 89.027 119.38)
+		(end 89.027 127)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -1230,7 +1230,7 @@
 		(uuid "8d32cfe1-2b7d-4ddb-9a2e-eae9f954fade")
 	)
 	(gr_text "GND"
-		(at 84.455 126.365 0)
+		(at 85.344 113.284 0)
 		(layer "F.SilkS")
 		(uuid "0018ee55-8098-45b6-a161-91fc26ec5f4b")
 		(effects
@@ -1242,7 +1242,7 @@
 		)
 	)
 	(gr_text "\nInput"
-		(at 96.52 116.84 0)
+		(at 97.282 131.318 0)
 		(layer "F.SilkS")
 		(uuid "3d12c8df-65de-46b1-b462-c1a641a97de8")
 		(effects
@@ -1254,7 +1254,7 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 85.09 55.245 0)
+		(at 85.344 55.245 0)
 		(layer "F.SilkS")
 		(uuid "7f1af34a-b5cf-409e-824b-3bfae1eef39f")
 		(effects
@@ -1266,7 +1266,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 85.0646 65.3796 0)
+		(at 85.344 65.3796 0)
 		(layer "F.SilkS")
 		(uuid "8d3b4b3e-f94d-437f-9e02-7150186a0564")
 		(effects
@@ -1278,7 +1278,7 @@
 		)
 	)
 	(gr_text "+5V"
-		(at 84.328 113.538 0)
+		(at 85.344 123.698 0)
 		(layer "F.SilkS")
 		(uuid "96e40aa4-02f2-46b0-84c6-f0ebc18a29c0")
 		(effects
@@ -1302,7 +1302,7 @@
 		)
 	)
 	(gr_text "\nOutput"
-		(at 96.266 60.452 0)
+		(at 96.52 47.498 0)
 		(layer "F.SilkS")
 		(uuid "efdfbed6-c3f6-4876-91e2-18bf57076bc0")
 		(effects
