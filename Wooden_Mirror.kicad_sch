@@ -8,6 +8,166 @@
 		(title "Wooden Mirror")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x10_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -1103,6 +1263,12 @@
 		(uuid "24a30af3-a217-4a7f-94db-3b527ad4f3e0")
 	)
 	(junction
+		(at 180.34 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a8dd2e3-fe1a-47d1-b8d7-ab6c18078f96")
+	)
+	(junction
 		(at 177.8 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1137,6 +1303,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5136bfb9-9ce0-4ecc-a477-00c3445bb4a7")
+	)
+	(junction
+		(at 180.34 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5669a4c4-5811-46ac-a990-897543f0e64a")
 	)
 	(junction
 		(at 137.16 80.01)
@@ -1454,6 +1626,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 87.63) (xy 185.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3753bc7d-8c9c-48dd-ac39-33fa7a77ac7c")
+	)
+	(wire
+		(pts
 			(xy 119.38 95.25) (xy 119.38 92.71)
 		)
 		(stroke
@@ -1561,16 +1743,6 @@
 			(type default)
 		)
 		(uuid "57aca569-cd2f-4e37-b60e-52017ca2e3d4")
-	)
-	(wire
-		(pts
-			(xy 177.8 90.17) (xy 180.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58622a93-3fc4-4fa5-ab46-49e5f2881c5d")
 	)
 	(wire
 		(pts
@@ -1934,6 +2106,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce5b466-6c1f-436e-b434-b066d4771e11")
+	)
+	(wire
+		(pts
 			(xy 119.38 90.17) (xy 119.38 92.71)
 		)
 		(stroke
@@ -2141,6 +2323,26 @@
 			(type default)
 		)
 		(uuid "fc58193a-38f6-4bef-8b53-1d0fd4bb619d")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febea61e-4d8b-4de8-894b-239b8d019229")
+	)
+	(wire
+		(pts
+			(xy 185.42 80.01) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3d1756-69b2-485d-9b3e-c54777e5e2a7")
 	)
 	(wire
 		(pts
@@ -2511,6 +2713,75 @@
 			(project "Wooden_Mirror"
 				(path "/4a0118d4-2192-466c-b388-156d8d14982b"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 190.5 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29c7a4e9-ab18-41b5-9d0e-23008395094b")
+		(property "Reference" "J2"
+			(at 191.77 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 191.77 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10100fe8-06fe-495b-9c4b-766c72efc3e6")
+		)
+		(pin "1"
+			(uuid "f8f75d2f-590a-41a9-a6c8-e8a22764d862")
+		)
+		(instances
+			(project "Wooden_Mirror"
+				(path "/4a0118d4-2192-466c-b388-156d8d14982b"
+					(reference "J2")
 					(unit 1)
 				)
 			)
