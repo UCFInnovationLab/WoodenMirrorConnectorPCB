@@ -1275,12 +1275,6 @@
 		(uuid "2efbfe6f-7b97-4545-b6e7-a3035dfb3d31")
 	)
 	(junction
-		(at 137.16 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "357c4456-1d01-4f23-a200-af92d891b451")
-	)
-	(junction
 		(at 119.38 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1303,6 +1297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5136bfb9-9ce0-4ecc-a477-00c3445bb4a7")
+	)
+	(junction
+		(at 137.16 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "521fd4e9-f087-41a4-80da-ed20286dc9f3")
 	)
 	(junction
 		(at 180.34 90.17)
@@ -1389,12 +1389,6 @@
 		(uuid "bff3bc81-e25e-4c94-99f9-6f240fc7c349")
 	)
 	(junction
-		(at 148.59 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1e40a8b-b151-4596-9bad-4d9a35cb7d19")
-	)
-	(junction
 		(at 119.38 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1443,6 +1437,16 @@
 			(type default)
 		)
 		(uuid "0178ad8f-2e83-486e-b50b-753906b60749")
+	)
+	(wire
+		(pts
+			(xy 157.48 90.17) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fdbf5a-ee1f-428b-92ee-082547e3d583")
 	)
 	(wire
 		(pts
@@ -1756,16 +1760,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 90.17) (xy 148.59 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8980ff-3579-474d-a7f7-b52fa5e56091")
-	)
-	(wire
-		(pts
 			(xy 137.16 111.76) (xy 175.26 111.76)
 		)
 		(stroke
@@ -1863,16 +1857,6 @@
 			(type default)
 		)
 		(uuid "69039de4-0222-4078-839a-771777d5ab98")
-	)
-	(wire
-		(pts
-			(xy 148.59 90.17) (xy 160.02 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bae2f77-69d6-4ea7-b5bd-6a92b273d28d")
 	)
 	(wire
 		(pts
@@ -2266,6 +2250,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb70136-f331-4b1e-9962-ad46dbe4585b")
+	)
+	(wire
+		(pts
 			(xy 115.57 80.01) (xy 119.38 80.01)
 		)
 		(stroke
@@ -2588,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 148.59 90.17 0)
+		(at 157.48 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2597,7 +2591,7 @@
 		(fields_autoplaced yes)
 		(uuid "096c6fd4-7c6d-4ba3-a05b-ad5f4c8fedcb")
 		(property "Reference" "#PWR06"
-			(at 148.59 93.98 0)
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2600,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 148.59 86.36 0)
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,6 +3292,72 @@
 			(project "Wooden_Mirror"
 				(path "/4a0118d4-2192-466c-b388-156d8d14982b"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 139.7 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "882053bd-8b88-4807-9621-cb718757f921")
+		(property "Reference" "#PWR011"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3fb8b88-168b-470d-b56d-a4fedebf2829")
+		)
+		(instances
+			(project "Wooden_Mirror"
+				(path "/4a0118d4-2192-466c-b388-156d8d14982b"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
