@@ -1335,7 +1335,7 @@
 	(footprint "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6d0bc658-8696-449d-a56a-b94d90f2e811")
-		(at 79.66 123.61 90)
+		(at 79.66 55.03 90)
 		(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf")
 		(tags "RC Connector XT60")
 		(property "Reference" "J2"
