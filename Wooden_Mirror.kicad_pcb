@@ -2156,6 +2156,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f8384baa-c8b5-4f89-95b1-2d561a219dd2")
 	)
+	(gr_text "Output"
+		(at 137.668 89.408 0)
+		(layer "F.SilkS")
+		(uuid "128e3b2f-625a-4e9e-828a-6876100c4025")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 137.668 150.114 0)
 		(layer "F.SilkS")
@@ -2196,6 +2208,18 @@
 		(at 137.668 81.788 0)
 		(layer "F.SilkS")
 		(uuid "bb057667-3621-4575-bc34-429d686ed2f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Input"
+		(at 137.668 132.842 0)
+		(layer "F.SilkS")
+		(uuid "c39a3a74-4d5e-417d-bdb9-f5c86093ccbd")
 		(effects
 			(font
 				(size 1 1)
